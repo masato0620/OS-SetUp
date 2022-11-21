@@ -1,0 +1,6 @@
+イメージの確認 
+docker images
+ubuntu                               latest                                                  a8780b506fa4   2 weeks ago     77.8MB
+イメージの取得
+docker pull ubuntu 
+Using default tag: latest
