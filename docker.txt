@@ -8,10 +8,10 @@ Using default tag: latest
 docker run -it ubuntu
 root@098a42730d74:/# 
 コンテナの起動
-docker start ubuntu_test
+docker start ubuntu-test
 コンテナへのログイン
-docker exec -it ubuntu_test bash
+docker exec -it ubuntu-test bash
 コンテナの停止
-docker stop ubuntu_test
+docker stop ubuntu-test
 コンテナの保存
-docker commit ubuntu_test my_ubuntu_test
+docker commit ubuntu-test my_ubuntu-test
