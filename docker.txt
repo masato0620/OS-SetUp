@@ -4,3 +4,14 @@ ubuntu                               latest                                     
 イメージの取得
 docker pull ubuntu 
 Using default tag: latest
+取得したイメージからコンテナ作成
+docker run -it ubuntu
+root@098a42730d74:/# 
+コンテナの起動
+docker start ubuntu_test
+コンテナへのログイン
+docker exec -it ubuntu_test bash
+コンテナの停止
+docker stop ubuntu_test
+コンテナの保存
+docker commit ubuntu_test my_ubuntu_test
